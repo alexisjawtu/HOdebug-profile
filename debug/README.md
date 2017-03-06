@@ -56,6 +56,7 @@ ejecuten `ulimit -s unlimited` en la terminal y vuelvan a
 correrlo. Luego responder las siguientes preguntas:
 
 - ¿Devuelven el mismo error que antes?
+
 - Averigüen qué hicieron al ejecutar la sentencia `ulimit -s
 unlimited`. Algunas pistas son: abran otra terminal distinta y fíjense
 si vuelve al mismo error, fíjense la diferencia entre `ulimit -a`
