@@ -21,6 +21,8 @@
 void mat_Tmat_mul( float * A, float * C ){
 
   int i, j, k;
+
+  // TODO: probemos alocando en el heap, con malloc(), aca. 
   float temp[SIZE][SIZE];
 
   for (i = 0; i < SIZE; i++)
@@ -48,6 +50,7 @@ int main(int argc, char * argv[]){
     }
   }
    
+  // seteo la memoria como ceros
   memset(C, 0, SIZE * SIZE * sizeof(float));
   
   mat_Tmat_mul(A, C);
